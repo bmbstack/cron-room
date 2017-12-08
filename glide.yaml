@@ -1,0 +1,19 @@
+package: github.com/onestack/cron-room
+import:
+- package: github.com/bmbstack/gron
+  subpackages:
+  - xtime
+- package: github.com/go-sql-driver/mysql
+- package: github.com/jinzhu/gorm
+- package: github.com/joho/godotenv
+  subpackages:
+  - autoload
+- package: github.com/labstack/gommon
+  subpackages:
+  - /color
+- package: github.com/urfave/cli
+- package: go.uber.org/zap
+  subpackages:
+  - zapcore
+- package: gopkg.in/natefinch/lumberjack.v2
+- package: github.com/levigross/grequests
